@@ -1,0 +1,77 @@
+body {
+    background: #333;
+    color: #fff;
+}
+
+#home-section {
+    background: url(../img/home111.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 750px;
+}
+
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 750px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+    padding-top: 200px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  #home-section .fas {
+    background: #333;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .card {
+      border: none;
+  }
+
+
+
+.rotate:hover {
+    transform: rotate(720deg);
+    transition: all 1s ease-in-out;
+}
+
+
+#menu-cards {
+    margin-top: 50px;
+}
+
+
+.main-footer {
+    margin-top: 140px;
+}
+
+#about-section {
+    background: url(../img/about2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+#about-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    padding-top: 100px;
+}
+
+.main-btn:hover {
+color: #ffc107;
+}
+
+.main-btn2:hover {
+    color: #ffc107;
+    }
